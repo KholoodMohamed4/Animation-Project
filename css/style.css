@@ -1,0 +1,181 @@
+.div1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+
+    animation-name: div;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes div{
+    from{
+        left: 0;
+    }
+    to{
+        left: 950px;
+    }
+
+}
+
+.div2{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 950px;
+
+    animation-name: div;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-direction: reverse;
+}
+@keyframes div{
+    from{
+        left: 0;
+    }
+    to{
+        left: 950px;
+    }
+
+}
+
+.div3{
+    width: 200px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+
+    animation-name: div;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+@keyframes div{
+    from{
+        left: 0;
+    }
+    to{
+        left: 950px;
+    }
+
+}
+
+.div4{
+    width: 200px;
+    height: 100px;
+    background-color: palevioletred;
+    position: absolute;
+    left: 950px;
+    top: 150px;
+    animation-name: div;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    animation-direction: reverse;
+}
+@keyframes div{
+    from{
+        left: 0;
+    }
+    to{
+        left: 950px;
+    }
+
+}
+
+.div5{
+    width: 200px;
+    height: 100px;
+    background-color: saddlebrown;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+
+    animation-name: div;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+@keyframes div{
+    from{
+        left: 0;
+    }
+    to{
+        left: 950px;
+    }
+
+}
+
+.div6{
+    width: 200px;
+    height: 100px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 950px;
+    top: 300px;
+    animation-name: div;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    animation-direction: reverse;
+}
+@keyframes div{
+    from{
+        left: 0;
+    }
+    to{
+        left: 950px;
+    }
+
+}
+
+.div7{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 430px;
+    z-index: 2;
+
+    animation-name: div;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+}
+@keyframes div{
+    from{
+        left: 0;
+    }
+    to{
+        left: 950px;
+    }
+
+}
+
+.div8{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(204, 184, 148);
+    position: absolute;
+    left: 950px;
+    top: 430px;
+    animation-name: div;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 14s;
+    animation-direction: reverse;
+}
+@keyframes div{
+    from{
+        left: 0;
+    }
+    to{
+        left: 950px;
+    }
+
+}
